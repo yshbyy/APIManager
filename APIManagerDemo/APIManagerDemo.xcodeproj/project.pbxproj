@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59715E8DDD474E789C7DAE64 /* libPods-hehe-APIManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B953C8F05B739800F3FAA3 /* libPods-hehe-APIManagerDemo.a */; };
+		771F49A21E0A2D9300BB30B1 /* APIBaseReformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F49941E0A2D9300BB30B1 /* APIBaseReformer.m */; };
+		771F49A31E0A2D9300BB30B1 /* APIManagerListAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F49971E0A2D9300BB30B1 /* APIManagerListAPI.m */; };
+		771F49A41E0A2D9300BB30B1 /* SJQBaseAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F499A1E0A2D9300BB30B1 /* SJQBaseAPIManager.m */; };
+		771F49A51E0A2D9300BB30B1 /* SJQNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F499C1E0A2D9300BB30B1 /* SJQNetworkReachability.m */; };
+		771F49A61E0A2D9300BB30B1 /* SJQCacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F499F1E0A2D9300BB30B1 /* SJQCacheObject.m */; };
+		771F49A71E0A2D9300BB30B1 /* SJQRequestCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 771F49A11E0A2D9300BB30B1 /* SJQRequestCache.m */; };
 		77A112661DD4705D0048310B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A112651DD4705D0048310B /* main.m */; };
 		77A112691DD4705D0048310B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A112681DD4705D0048310B /* AppDelegate.m */; };
 		77A1126C1DD4705D0048310B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A1126B1DD4705D0048310B /* ViewController.m */; };
@@ -16,6 +23,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0074F75095155D6572A372A9 /* Pods-hehe-APIManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hehe-APIManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-hehe-APIManagerDemo/Pods-hehe-APIManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		62F6EAF39392FE1F46EADC02 /* Pods-hehe-APIManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hehe-APIManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hehe-APIManagerDemo/Pods-hehe-APIManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		68B953C8F05B739800F3FAA3 /* libPods-hehe-APIManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hehe-APIManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		771F49911E0A2D9300BB30B1 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		771F49931E0A2D9300BB30B1 /* APIBaseReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIBaseReformer.h; sourceTree = "<group>"; };
+		771F49941E0A2D9300BB30B1 /* APIBaseReformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIBaseReformer.m; sourceTree = "<group>"; };
+		771F49961E0A2D9300BB30B1 /* APIManagerListAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManagerListAPI.h; sourceTree = "<group>"; };
+		771F49971E0A2D9300BB30B1 /* APIManagerListAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManagerListAPI.m; sourceTree = "<group>"; };
+		771F49981E0A2D9300BB30B1 /* APIManagerResponseDataReformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManagerResponseDataReformer.h; sourceTree = "<group>"; };
+		771F49991E0A2D9300BB30B1 /* SJQBaseAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJQBaseAPIManager.h; sourceTree = "<group>"; };
+		771F499A1E0A2D9300BB30B1 /* SJQBaseAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJQBaseAPIManager.m; sourceTree = "<group>"; };
+		771F499B1E0A2D9300BB30B1 /* SJQNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJQNetworkReachability.h; sourceTree = "<group>"; };
+		771F499C1E0A2D9300BB30B1 /* SJQNetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJQNetworkReachability.m; sourceTree = "<group>"; };
+		771F499E1E0A2D9300BB30B1 /* SJQCacheObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJQCacheObject.h; sourceTree = "<group>"; };
+		771F499F1E0A2D9300BB30B1 /* SJQCacheObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJQCacheObject.m; sourceTree = "<group>"; };
+		771F49A01E0A2D9300BB30B1 /* SJQRequestCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJQRequestCache.h; sourceTree = "<group>"; };
+		771F49A11E0A2D9300BB30B1 /* SJQRequestCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJQRequestCache.m; sourceTree = "<group>"; };
 		77A112611DD4705D0048310B /* APIManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A112651DD4705D0048310B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A112671DD4705D0048310B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +57,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59715E8DDD474E789C7DAE64 /* libPods-hehe-APIManagerDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76DD049AAD0B5A1A992DBD0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62F6EAF39392FE1F46EADC02 /* Pods-hehe-APIManagerDemo.debug.xcconfig */,
+				0074F75095155D6572A372A9 /* Pods-hehe-APIManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		771F49901E0A2D9300BB30B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				771F49911E0A2D9300BB30B1 /* APIManager.h */,
+				771F49921E0A2D9300BB30B1 /* APIResponseReformers */,
+				771F49951E0A2D9300BB30B1 /* Base */,
+				771F499D1E0A2D9300BB30B1 /* Cache */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		771F49921E0A2D9300BB30B1 /* APIResponseReformers */ = {
+			isa = PBXGroup;
+			children = (
+				771F49931E0A2D9300BB30B1 /* APIBaseReformer.h */,
+				771F49941E0A2D9300BB30B1 /* APIBaseReformer.m */,
+			);
+			path = APIResponseReformers;
+			sourceTree = "<group>";
+		};
+		771F49951E0A2D9300BB30B1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				771F49961E0A2D9300BB30B1 /* APIManagerListAPI.h */,
+				771F49971E0A2D9300BB30B1 /* APIManagerListAPI.m */,
+				771F49981E0A2D9300BB30B1 /* APIManagerResponseDataReformer.h */,
+				771F49991E0A2D9300BB30B1 /* SJQBaseAPIManager.h */,
+				771F499A1E0A2D9300BB30B1 /* SJQBaseAPIManager.m */,
+				771F499B1E0A2D9300BB30B1 /* SJQNetworkReachability.h */,
+				771F499C1E0A2D9300BB30B1 /* SJQNetworkReachability.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		771F499D1E0A2D9300BB30B1 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				771F499E1E0A2D9300BB30B1 /* SJQCacheObject.h */,
+				771F499F1E0A2D9300BB30B1 /* SJQCacheObject.m */,
+				771F49A01E0A2D9300BB30B1 /* SJQRequestCache.h */,
+				771F49A11E0A2D9300BB30B1 /* SJQRequestCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
 		77A112581DD4705D0048310B = {
 			isa = PBXGroup;
 			children = (
+				771F49901E0A2D9300BB30B1 /* Classes */,
 				77A112631DD4705D0048310B /* APIManagerDemo */,
 				77A112621DD4705D0048310B /* Products */,
+				76DD049AAD0B5A1A992DBD0B /* Pods */,
+				8C6623957E908DA9B1E90D69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +162,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8C6623957E908DA9B1E90D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B953C8F05B739800F3FAA3 /* libPods-hehe-APIManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77A112781DD4705D0048310B /* Build configuration list for PBXNativeTarget "APIManagerDemo" */;
 			buildPhases = (
+				B1AF5A9D6F630751E431949F /* [CP] Check Pods Manifest.lock */,
 				77A1125D1DD4705D0048310B /* Sources */,
 				77A1125E1DD4705D0048310B /* Frameworks */,
 				77A1125F1DD4705D0048310B /* Resources */,
+				B138AEF06814ADFF86DF7140 /* [CP] Embed Pods Frameworks */,
+				93350BE50785EADA278BAC83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +240,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93350BE50785EADA278BAC83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hehe-APIManagerDemo/Pods-hehe-APIManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B138AEF06814ADFF86DF7140 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hehe-APIManagerDemo/Pods-hehe-APIManagerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AF5A9D6F630751E431949F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77A1125D1DD4705D0048310B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771F49A51E0A2D9300BB30B1 /* SJQNetworkReachability.m in Sources */,
+				771F49A41E0A2D9300BB30B1 /* SJQBaseAPIManager.m in Sources */,
+				771F49A31E0A2D9300BB30B1 /* APIManagerListAPI.m in Sources */,
 				77A1126C1DD4705D0048310B /* ViewController.m in Sources */,
+				771F49A61E0A2D9300BB30B1 /* SJQCacheObject.m in Sources */,
 				77A112691DD4705D0048310B /* AppDelegate.m in Sources */,
 				77A112661DD4705D0048310B /* main.m in Sources */,
+				771F49A21E0A2D9300BB30B1 /* APIBaseReformer.m in Sources */,
+				771F49A71E0A2D9300BB30B1 /* SJQRequestCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +417,7 @@
 		};
 		77A112791DD4705D0048310B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F6EAF39392FE1F46EADC02 /* Pods-hehe-APIManagerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8LR69FR7QG;
@@ -281,6 +430,7 @@
 		};
 		77A1127A1DD4705D0048310B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0074F75095155D6572A372A9 /* Pods-hehe-APIManagerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8LR69FR7QG;
@@ -310,6 +460,7 @@
 				77A1127A1DD4705D0048310B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

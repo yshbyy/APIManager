@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/yshbyy/APIManager.git'
+
+abstract_target 'hehe' do
+
+#    pod 'SDWebImage', '~>3.7'
+    pod 'AFNetworking', '~>2.0'
+#    pod 'APIManager'
+
+    target ‘APIManagerDemo’ do
+
+    end    
+end
